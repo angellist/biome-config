@@ -39,6 +39,7 @@
         "useSingleVarDeclarator": "error"
       },
       "suspicious": {
+        "noConsole": "error",
         "noExplicitAny": "warn"
       }
     }
