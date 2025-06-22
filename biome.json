@@ -69,7 +69,6 @@
   "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "vcs": {
     "clientKind": "git",
-    "defaultBranch": "master",
     "enabled": true,
     "useIgnoreFile": true
   }
