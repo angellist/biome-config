@@ -7,7 +7,9 @@
       "**/*.ts",
       "**/*.tsx",
       "**/*.json",
-      "!**/node_modules/**"
+      "!**/node_modules/**",
+      "!**/.turbo/**",
+      "!**/dist/**",
     ]
   },
   "linter": {
