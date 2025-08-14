@@ -2,5 +2,12 @@
   "name": "@angellist/biome-config",
   "type": "module",
   "version": "1.2.0",
-  "exports": "./biome.json"
+  "exports": "./biome.json",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,json,jsonc}": "biome check --write"
+  }
 }
