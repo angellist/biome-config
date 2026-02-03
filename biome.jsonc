@@ -19,7 +19,8 @@
       "**/*.json",
       "!**/node_modules",
       "!**/.turbo",
-      "!**/dist"
+      "!**/dist",
+      "!**/.claude"
     ]
   },
   "javascript": {
