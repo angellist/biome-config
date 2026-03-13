@@ -73,7 +73,8 @@
         "useEnumInitializers": "error",
         "useNumberNamespace": "error",
         "useSelfClosingElements": "error",
-        "useSingleVarDeclarator": "error"
+        "useSingleVarDeclarator": "error",
+        "useBlockStatements": "error"
       },
       "suspicious": {
         "noConsole": "error",
