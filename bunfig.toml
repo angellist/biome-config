@@ -1,0 +1,5 @@
+[install]
+# Block registry packages younger than 7 days as a supply-chain quarantine.
+# Git deps (e.g. github:angellist/...) bypass this check and are unaffected.
+# Requires Bun >= 1.2.31.
+minimumReleaseAge = 604800
